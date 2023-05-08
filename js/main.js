@@ -8,6 +8,7 @@ console.log("Benvenuto")
         message: 'Hello Vue!',
         orangeTitle: "orangered",
         image: './img/04.webp',
+        dimensionImg: 'dimensionImg'
       }
     }
   }).mount('#app')
