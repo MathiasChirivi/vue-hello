@@ -6,9 +6,16 @@ console.log("Benvenuto")
     data() {
       return {
         message: 'Hello Vue!',
-        orangeTitle: "orangered",
+        orangeTitle: "orangered secondaClasse",
+        nome:"",
+        cognome:"",
         image: './img/04.webp',
-        dimensionImg: 'dimensionImg'
-      }
+        dimensionImg: 'dimensionImg',
+        }
+      },
+      methods:{
+        btnClick(){
+            this.orangeTitle = "green";
+        }
     }
   }).mount('#app')

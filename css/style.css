@@ -16,8 +16,20 @@ body{
     justify-content: center;
 }
 
+.form{
+    color: white;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .orangered{
     color: orangered;
+}
+
+.green{
+    color: green;
 }
 
 .dimensionImg {

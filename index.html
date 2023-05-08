@@ -11,7 +11,18 @@
 <body>
 
 <div id="app">
-    <h1 :class="orangeTitle"> {{message}} </h1>
+    <h1 :class="orangeTitle"> {{message}}, {{nome}} {{cognome}} </h1>
+
+    <div class="form">
+        <label>Nome: </label>
+        <input v-model="nome" placeholder="Inserisci il nome">
+
+        <label>Cognome: </label>
+        <input v-model="cognome" placeholder="Inserisci il cognome">
+
+    </div>
+    <button @click="btnClick">Green</button>
+
     <img class="dimensionImg" :src="image">
 </div>
 
