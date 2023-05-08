@@ -6,7 +6,8 @@ console.log("Benvenuto")
     data() {
       return {
         message: 'Hello Vue!',
-        image: './img/04.webp'
+        orangeTitle: "orangered",
+        image: './img/04.webp',
       }
     }
   }).mount('#app')

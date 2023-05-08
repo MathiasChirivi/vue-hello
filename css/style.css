@@ -16,7 +16,7 @@ body{
     justify-content: center;
 }
 
-#app > h1 {
+.orangered{
     color: orangered;
 }
 
